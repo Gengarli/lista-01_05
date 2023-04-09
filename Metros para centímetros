@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class Main {
+  
+  public static void main(String[] args) {
+     
+     Scanner teclado = new Scanner(System.in);
+     
+     System.out.print("Me informe um valor em metros: ");
+     double m = teclado.nextDouble();
+
+     double c = (m * 100);
+    
+     System.out.println("O valor informado transferido para centímetros é: " + c + "!");
+
+     }
+    }
